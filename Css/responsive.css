@@ -1,0 +1,94 @@
+
+@media (min-width:393px) and (max-width:991px){
+    .navbar-brand img {
+        width: 45px;
+        height: 20px;
+    }
+    .nav-item a{
+        font-size: 16px;
+        font-family:var(--primary-font);
+        text-align: left;
+        transition: 0.45s;
+    }
+
+    .navbar-toggler span i{
+        font-size: 40px;
+        
+    }
+
+    #banner {
+        height: 25vh;
+    }
+
+    .bannerCnt {
+        margin-top: 15px;
+    }
+    .bannerCnt h6 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .bannerCnt h1 {
+        font-size: 22px;
+    }
+
+    .bannerCnt p {
+        font-size: 14px;
+    }
+
+    .Button {
+        width: 120px;
+        height: 30px;
+        line-height: 28px;
+    }
+
+    .Button a {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:392px ){
+
+    .navbar-brand img {
+        width: 50px;
+        height: 25px;
+    }
+
+    .navbar-toggler span i{
+        font-size: 28px;
+        
+    }
+
+    #banner {
+        height: 45vh;
+    }
+
+    .bannerCnt {
+        margin-top: 5px;
+    }
+
+    .bannerCnt h6 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .bannerCnt h1 {
+        font-size: 14px;
+    }
+
+    .bannerCnt p {
+        font-size: 6px;
+    }
+
+    .Button {
+        width: 70px;
+        height: 25px;
+        line-height: 19px;
+    }
+
+    .Button a {
+        font-size: 9px;
+    }
+
+}
